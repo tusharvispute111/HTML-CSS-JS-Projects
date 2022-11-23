@@ -1,0 +1,39 @@
+body{
+    background-color: salmon;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container{
+    background-color: palegoldenrod;
+    width: 500px;
+    height: 300px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,.3);
+}
+
+.textarea{
+    resize: none;
+    width: 100%;
+    height: 180px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border: solid 2px gray;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    padding: 0 5px;
+}
+
+h2{
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
